@@ -1,0 +1,10 @@
+
+
+
+//ha nem akarsz sokat tsc-zni) tsc --tartget es6 web/app.ts
+
+npm init -y
+npm i --save-dev light-server
+
+tsc --target es6 --watch web/app.ts
+
